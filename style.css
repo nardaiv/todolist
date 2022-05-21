@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    background-color: #FEF7DC;
+}
+
+input{
+    width: 50%;
+    border-radius: 10px;
+    padding-left: 15px;
+}
+
+h1,i{
+    color: #A19882;
+}
+
+h2, #items h1{
+    color: #C2B8A3;
+}
+
+#items{
+    margin-left: 50px;
+    word-wrap: break-word;
+    width: 50%;
+}
+
+#utility{
+    gap: 15px;
+}
+
+#items h1, i{
+    cursor: pointer;
+}
+
+@media only screen and (max-width:1000px){
+    input{
+        width: 80%;
+    }
+    #items{
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width:720px){
+    input{
+        width: 100%;
+    }
+    #items{
+        width: 80%;
+    }
+}
